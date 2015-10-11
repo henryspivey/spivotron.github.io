@@ -17,10 +17,6 @@
 	  	"title": "Flowers in Summer"
 	  },
 	  {
-	    "link" : "https://raw.githubusercontent.com/spivotron/spivotron.github.io/master/images/IMG_1608.jpg",
-	  	"title": "Space Needle"
-	  },
-	  {
 	    "link" : "https://raw.githubusercontent.com/spivotron/spivotron.github.io/master/images/dock.jpg",
 	  	"title": "Dock"
 	  },
@@ -35,10 +31,6 @@
 	  {
 	    "link" : "https://raw.githubusercontent.com/spivotron/spivotron.github.io/master/images/kopachuck.jpg",
 	  	"title": "Kopachuck State Park, WA"
-	  },
-	  {
-	    "link" : "https://raw.githubusercontent.com/spivotron/spivotron.github.io/master/images/reflection.jpg",
-	  	"title": "Reflection"
 	  },
 	  {
 	    "link" : "https://raw.githubusercontent.com/spivotron/spivotron.github.io/master/images/sandwich.jpg",
@@ -59,6 +51,14 @@
 	  {
 	    "link" : "https://raw.githubusercontent.com/spivotron/spivotron.github.io/master/images/wall.jpg",
 	  	"title": "Wall"
+	  },
+	  {
+	    "link" : "https://raw.githubusercontent.com/spivotron/spivotron.github.io/master/images/reflection.jpg",
+	  	"title": "Reflection"
+	  },
+	  {
+	    "link" : "https://raw.githubusercontent.com/spivotron/spivotron.github.io/master/images/IMG_1608.jpg",
+	  	"title": "Space Needle"
 	  }
   ]
 
