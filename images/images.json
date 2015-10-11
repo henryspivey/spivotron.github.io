@@ -1,7 +1,7 @@
 {
   "images" : {
-    "src" : "https://github.com/spivotron/spivotron.github.io/blob/master/images/IMG_1776.jpg"
-  
+    "src" : "https://github.com/spivotron/spivotron.github.io/blob/master/images/IMG_1776.jpg",
+  	"caption": "Downtown Seattle"
   }
 
 }
