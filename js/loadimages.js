@@ -8,7 +8,7 @@ $(document).ready(function(){
 			
 
 			photoHTML += "<li>";
-			photoHTML += "<img src = "+photo.link + ">";
+			photoHTML += '<img src="' + photo.link+ '">';
 			photoHTML += "<p>"+ photo.title + "</p>";
 			photoHTML += "</li>";
 		});
