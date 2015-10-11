@@ -6,7 +6,7 @@ $(document).ready(function(){
 		$.each(data.items, function(i, photo) {
 			photoHTML += "<li>";
 			photoHTML += '<img src="' + photo.link + '">';
-			photoHTML += "<p>"+ caption.title + "</p>";
+			photoHTML += "<p>"+ photo.title + "</p>";
 		});
 		photoHTML += "</li>";
 		$("#gallery").html(photoHTML);
