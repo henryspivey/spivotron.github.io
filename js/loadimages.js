@@ -8,8 +8,8 @@ $(document).ready(function(){
 			
 
 			photoHTML += "<li>";
-			photoHTML += "<img src = "+photo.link + ">";
-			photoHTML += "<p>"+ photo.caption + "</p>";
+			photoHTML += "<img src = "+photo[i].link + ">";
+			photoHTML += "<p>"+ photo[i].title + "</p>";
 			photoHTML += "</li>";
 		});
 		photoHTML += "</ul>";
