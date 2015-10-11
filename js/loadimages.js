@@ -3,12 +3,10 @@ $(document).ready(function(){
 	
 	function displayPhotos(data) {
 		var photoHTML;
-		$.each(data.items, function(i, photo) {
-			console.log(data.items["link"]);
-
+		$.each(data.items, function(key, value) {
 			photoHTML += "<li>";
-			photoHTML += '<img src="' + data.items["link"]+ '">';
-			photoHTML += "<p>"+ data.items["caption"] + "</p>";
+			photoHTML += '<img src="' + $(this).link+ '">';
+			photoHTML += "<p>"+ $(this).caption + "</p>";
 		});
 		photoHTML += "</li>";
 		$("#gallery").html(photoHTML);
