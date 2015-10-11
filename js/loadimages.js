@@ -10,7 +10,7 @@ $(document).ready(function(){
 			photoHTML += "</li>";
 		});
 		photoHTML += "</ul>";
-		$("#gallery").html("photoHTML");
+		$("#gallery").html(photoHTML);
 	}
 	$.getJSON(images, displayPhotos);
 
