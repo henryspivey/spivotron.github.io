@@ -7,7 +7,7 @@ $(document).ready(function(){
 			console.log(data.items["link"]);
 
 			photoHTML += "<li>";
-			photoHTML += '<img src="' + photo.link+ '">';
+			photoHTML += '<img src="' + data.items[i]["link"]+ '">';
 			photoHTML += "<p>"+ photo.title + "</p>";
 			photoHTML += "</li>";
 		});
