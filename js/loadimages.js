@@ -5,8 +5,8 @@ $(document).ready(function(){
 		var photoHTML = "<ul>";
 		$.each(data.items, function(i, photo) {
 			photoHTML += "<li>";
-			photoHTML += "<img src = "+data.src + ">";
-			photoHTML += "<p>"+ data.caption + "</p>";
+			photoHTML += "<img src = "+photo.src + ">";
+			photoHTML += "<p>"+ photo.caption + "</p>";
 			photoHTML += "</li>";
 		});
 		photoHTML += "</ul>";
