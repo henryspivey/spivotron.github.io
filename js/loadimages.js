@@ -3,9 +3,8 @@ $(document).ready(function(){
 	
 	function displayPhotos(data) {
 		var photoHTML = "<ul>";
-		console.log(Object.keys(data.items));
 		$.each(data.items, function(i, photo) {
-			
+			console.log(data.items["link"]);
 
 			photoHTML += "<li>";
 			photoHTML += '<img src="' + photo.link+ '">';
