@@ -3,9 +3,13 @@ $(document).ready(function(){
 	
 	function displayPhotos(data) {
 		var photoHTML = "<ul>";
+		console.log(data);
 		$.each(data.images, function(i, photo) {
+			console.log(photo.link);
+			console.log(photo.caption);
+
 			photoHTML += "<li>";
-			photoHTML += "<img src = "+photo.src + ">";
+			photoHTML += "<img src = "+photo.link + ">";
 			photoHTML += "<p>"+ photo.caption + "</p>";
 			photoHTML += "</li>";
 		});
