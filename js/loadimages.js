@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	var images = "https://raw.githubusercontent.com/spivotron/spivotron.github.io/master/images/images.json";
+	var images = "images/images.json";
 	
 	function displayPhotos(data) {
 		var photoHTML;
